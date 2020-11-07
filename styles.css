@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.section-title {
+    font-size: 1.2em;
+    color: rgba(67, 67, 67, 0.641);
+    border-bottom: 1px solid rgba(103, 103, 103, 0.641);
+    padding: 10px 0;
+}
+
+.header-container {
+    padding: 0 50px 50px;
+    background: linear-gradient(130deg, rgba(14,5,134,1) 0%, rgba(3,156,115,1) 100%);
+}
+
+.header-container > .nav-container {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container > .nav-container > .logo-img {
+    height: 80%;
+}
+
+.header-container > .nav-container > .header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+
+.header-container > .nav-container > .header-nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.header-container > .nav-container > .header-nav > button {
+    background-color: #05B396;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.header-container > .header-section {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header-container > .header-section > .text-section {
+    width: 55%;
+}
+
+.header-container > .header-section > .text-section > .title-item {
+    color: rgb(9, 254, 209) !important;
+    font-size: 4em;
+    font-weight: 900;
+    margin: 0.1em 0;
+}
+
+.header-container > .header-section > .text-section > .subtitle-item {
+    color: rgba(255, 255, 255, 0.700);
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.header-container > .header-section > .text-section > .title-button {
+    color: white;
+    font-size: 1.4em;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.500);
+    padding: 20px 30px;
+}
+
+.header-container > .header-section > .image-section {
+    width: 40%;
+}
+
+.header-container > .header-section > .image-section > img {
+    width: 100%;
+}
+
+main > .trusted-clients {
+    background-color: rgb(242, 242, 242);
+    padding: 50px 20px 30px;
+    text-align: center;
+}
+
+main > .trusted-clients > .clients-logos {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main > .trusted-clients > .clients-logos > img {
+    height: 60px;
+}
+
+main > .what-we-do {
+    background-color: white;
+    padding: 50px 20px 30px;
+    text-align: center;
+}
+
+main > .what-we-do > .what-we-do-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+main > .what-we-do > .what-we-do-items > article {
+    width: 25%;
+}
+
+main > .what-we-do > .what-we-do-items > article > i {
+    font-size: 50px;
+}
+
+main > .what-we-do > .what-we-do-items > article > span {
+    color: rgba(39, 39, 39, 0.7);
+}
